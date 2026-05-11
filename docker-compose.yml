@@ -1,0 +1,10 @@
+version: "3.5"
+
+services:
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - 1123:5432
+    environment:
+      - POSTGRES_PASSWORD=postgres@123
