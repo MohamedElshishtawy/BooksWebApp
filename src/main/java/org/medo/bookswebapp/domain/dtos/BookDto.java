@@ -16,5 +16,5 @@ import org.medo.bookswebapp.domain.entities.AuthorEntity;
 public class BookDto {
     private String isbn;
     private String title;
-    private AuthorEntity author;
+    private AuthorDto author;
 }
